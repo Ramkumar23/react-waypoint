@@ -23,13 +23,39 @@ export default class Header extends React.Component {
                     <span style={{color: 'blue'}}>
                         This Page using &nbsp;
                         <span>
-                            <Image src="https://facebook.github.io/react/img/logo_small_gray.png" />
+                            <a target="_blank" rel="nofollow noopener noreferrer"
+                                   href="https://facebook.github.io/react">
+                                <Image
+                                    src="https://facebook.github.io/react/img/logo_small_gray.png" />
+                            </a>
+                        </span>
+                        &nbsp;
+                        &amp;
+                        &nbsp;
+                        <span>
+                            <a target="_blank" rel="nofollow noopener noreferrer"
+                               href="https://github.com/zeit/next.js">
+                                <Image
+                                    width={64}
+                                    src="https://cloud.githubusercontent.com/assets/50838/24116055/7076ba9c-0dcb-11e7-93d0-ba8f9ac8f6e4.png" />
+                            </a>
+                        </span>
+                        &nbsp;
+                        &amp;
+                        &nbsp;
+                        <span>
+                            <a target="_blank" rel="nofollow noopener noreferrer"
+                               href="https://react-bootstrap.github.io">
+                                <Image
+                                    width={32}
+                                    src="https://react-bootstrap.github.io/assets/logo.png" />
+                            </a>
                         </span>
                     </span>
                 </div>
                 <div style={{float: 'right'}}>
                     <span style={{color: 'white'}}>
-                       &nbsp; &copy; &nbsp;All Copyrights &nbsp; Reserved to  &nbsp;
+                       &nbsp; &copy; &nbsp;Get in touch with me on &nbsp;
                         <a target="_blank" rel="nofollow noopener noreferrer" href="https://github.com/Ramkumar23">
                             Ramkumar
                         </a>

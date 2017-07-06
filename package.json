@@ -9,7 +9,8 @@
     "next": "^3.0.1-beta.8",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-waypoint": "^7.0.4"
   },
   "scripts": {
     "dev": "next",
