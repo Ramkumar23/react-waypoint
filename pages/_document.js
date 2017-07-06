@@ -9,6 +9,9 @@ export default class ReactWaypointDoc extends Document {
         return (
             <html>
             <Head>
+                <link rel="stylesheet"
+                      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+                      integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossOrigin="anonymous"/>
                 <style>{`
                     body {
                         background: #000000; /* Old browsers */
