@@ -1,0 +1,19 @@
+{
+  "name": "react-waypoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ramkumar23/react-waypoint.git",
+  "author": "ramkumar",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^3.0.1-beta.8",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
