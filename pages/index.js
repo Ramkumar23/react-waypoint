@@ -13,13 +13,13 @@ export default class extends React.Component {
             <div>
                 <Layout>
                     <Row>
-                        <ImplWayonEnter />
+                        <ImplWayonLeave />
                     </Row>
                     <br />
                     <hr />
                     <br />
                     <Row>
-                        <ImplWayonLeave />
+                        <ImplWayonEnter />
                     </Row>
                 </Layout>
             </div>

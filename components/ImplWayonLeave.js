@@ -5,27 +5,35 @@
 import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import Waypoint from 'react-waypoint';
+import Info from './Info';
 
 
 export default class ImplWayonLeave extends React.Component {
     constructor(props) {
         super(props);
-        this.alertme= this.alertme.bind(this);
+        this.state= {
+            show: false
+        };
     }
-    alertme() {
-        window.alert("Ada Lusu Payale... :)");
-    }
+
     render() {
+        let close= () => this.setState({ show: false });
+
         return (
-            <div>
+            <div style={{height: '70vh'}}>
                 <Waypoint
-                    onEnter={this.alertme}>
+                    onLeave={ () => this.setState({ show: true })}>
                     <div>
                         <Jumbotron>
-                            <p style={{color: 'red'}}> Poran Paru Vekkame ilama</p>
+                            <p style={{color: 'red'}}> !st Content</p>
                         </Jumbotron>
                     </div>
                 </Waypoint>
+                <Info
+                    title="onEnter Info"
+                    message="Poran Paru Vekkame ilama"
+                    onHide={close}
+                    show={this.state.show} />
             </div>
         );
     }
